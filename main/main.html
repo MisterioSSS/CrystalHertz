@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>CrystalHertz - Home</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="../css/icons.css">-->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <nav class="nav">
+                    <div class="main">
+                        <a class="nav__link" href="main.html"> ГЛАВНАЯ</a>
+                    </div>
+                        <a class="nav__link" href="add.html">МОИ ТРЕКИ</a>
+                        <a class="nav__link" href="#">БИБЛИОТЕКА</a>
+                        <a class="nav__link" href="#">О НАС</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar">
+
+        <div class="toggle">
+            <i class="bx bx-chevron-right"></i>
+        </div>
+
+        <div class="logo">
+            <img src="../images/logowhite.png" alt="..." width="70" height="60">
+            <h3>CrystalHertz</h3>
+        </div>
+
+        <nav>
+
+            <div class="nav-title">
+                Щербаков Алексей Алексеевич
+            </div>
+
+            <ul>
+
+                <li class="nav-item active">
+                    <i class="bx bx-user"></i>
+                    <span>Аккаунт</span>
+                </li>
+
+                <li class="nav-item">
+                    <i class="bx bx-user-voice"></i>
+                    <span>Мои подписки</span>
+                </li>
+
+                <li class="nav-item">
+                    <i class="bx bx-user-plus"></i>
+                    <span>Мои подписчики</span>
+                </li>
+
+                <li class="nav-item">
+                    <i class="bx bx-notification"></i>
+                    <span>Уведомления</span>
+                </li>
+
+                <li class="nav-item">
+                    <i class="bx bx-cog"></i>
+                    <span>Настройки</span>
+                </li>
+
+            </ul>
+
+            <hr>
+
+            <div class="nav-title">
+                Поддержка
+            </div>
+
+            <ul>
+
+                <li class="nav-item">
+                    <i class="bx bxs-help-circle"></i>
+                    <span>Получить консультацию</span>
+                </li>
+
+                <li class="nav-item">
+                    <i class="bx bxs-message-dots"></i>
+                    <span>Отправить запрос</span>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <div class="icons" id="icons_for_hide">
+        <div class="icon">
+            <div class="glass">
+                <i class="bx bx-rewind"></i>
+            </div>
+        </div>
+
+        <div  id="bx-play" class="icon">
+            <div class="glass">
+<!--                <button id="btnPlay" class="btnPlay" height="70px" width="70px">-->
+                    <i class="bx bx-play"></i>
+<!--                </button>-->
+            </div>
+        </div>
+
+        <div class="icon">
+            <div class="glass">
+                <i class="bx bx-fast-forward"></i>
+            </div>
+        </div>
+
+        <div class="icon">
+            <div class="glass">
+                <i class="bx bx-repeat"></i>
+            </div>
+        </div>
+
+        <div class="icon">
+            <div class="glass">
+                <i class="bx bx-plus"></i>
+            </div>
+        </div>
+    </div>
+    <div class="okno">
+        <H3>привет мир тыры пыры</H3>
+    </div>
+
+
+
+    <div class="vinyl">
+        <div class="vinyl_block">
+            <img class="vinyl_record" src="../images/1.png" alt="">
+            <img class="vinyl_album" src="../images/tyler.png" width="700px" height="700px" style="animation-play-state: paused;">
+            <img class="vinyl_texture" src="../images/a98627118d897cf5.png" style="animation-play-state: paused;">
+        </div>
+    </div>
+
+        <div>
+            <audio id="audio">
+                <source type='audio/mp3' src="../audio/tyler-the-creator-earfquake.mp3">
+            </audio>
+        </div>
+
+
+    <script type="text/javascript" src="../js/sidebar.js"></script>
+    <script type="text/javascript" src="../js/player.js"></script>
+    <script type="text/javascript" src="../js/audio.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
