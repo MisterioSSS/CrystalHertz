@@ -1,7 +1,7 @@
 let play = document.querySelector('.bx-play');
 let vinylAlbum = document.querySelector('.vinyl_album');
 let vinylTexture = document.querySelector('.vinyl_texture');
-let icons_for_hide = document.getElementById('icons_for_hide');
+let icons = document.querySelectorAll('.icon');
 
 play.addEventListener('click', function () {
   document.querySelector('.okno').style.transform = 'translateX(0)';
@@ -14,6 +14,8 @@ play.addEventListener('click', function () {
   }
 });
 
-icons_for_hide.onclick = function offset() {
-  icons_for_hide.style.top = '800px';
-};
+icons.forEach((icon) => {
+  icon.addEventListener('click', () => {
+    icons_for_hide.style.top = '800px';
+  });
+});

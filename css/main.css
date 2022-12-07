@@ -432,7 +432,7 @@ body{
     margin-top: 300px;
     border-radius: 30px;
     backdrop-filter: blur(5px);
-    transition: all 1.5s ease;
+    transition: transform 1.5s ease;
     transform: translateX(-500px);
 }
 
