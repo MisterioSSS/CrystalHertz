@@ -1,10 +1,11 @@
-let play = document.querySelector('.bx-play');
+let play = document.querySelector('#bx-play');
 let vinylAlbum = document.querySelector('.vinyl_album');
 let vinylTexture = document.querySelector('.vinyl_texture');
 let icons = document.querySelectorAll('.icon');
 
 play.addEventListener('click', function () {
   document.querySelector('.okno').style.transform = 'translateX(0)';
+  document.querySelector('.okno').classList.add('open');
   if (vinylAlbum.style.animationPlayState === 'paused') {
     vinylAlbum.style.animationPlayState = 'running';
     vinylTexture.style.animationPlayState = 'running';
