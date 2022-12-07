@@ -432,6 +432,7 @@ body{
     margin-top: 300px;
     border-radius: 30px;
     backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
 }
 
 .textobl{
@@ -448,6 +449,7 @@ body{
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
 }
+
 @keyframes move {
     0% {
         transform: rotate(0deg);
