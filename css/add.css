@@ -52,6 +52,21 @@ body{
     justify-content: center;
 }
 
+.btn_add_track {
+    width: 200px;
+    height: 50px;
+    background-color: #ff6f08;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+
+.btn_add_track:hover{
+    transform: scale(1.1);
+}
+
 .background-image {
     position: fixed;
     left: 0;
@@ -64,7 +79,7 @@ body{
     -webkit-filter: blur(10px) contrast(50%);
     -moz-filter: blur(10px) contrast(50%);
     -o-filter: blur(10px) contrast(50%);
-    -ms-filter: blur(10px)contrast(50%);
+    -ms-filter: blur(10px) contrast(50%);
     filter: blur(10px) contrast(50%);
 }
 
@@ -89,7 +104,7 @@ body{
     color: #fff;
     text-decoration: none;
 
-    transition: 0.1 linear;
+    transition: 0.1s linear;
 }
 
 .nav__link::before,
@@ -275,6 +290,7 @@ body{
 }
 
 
+
 .sidebar .toggle i {
     transition: .4s linear;
 }
@@ -289,7 +305,6 @@ body{
     z-index: 998;
     background: rgba(10, 10, 10, .65);
     min-height: 322px;
-    max-height: auto;
     width: 1500px;
     margin-left: 200px;
     margin-top: 200px;
