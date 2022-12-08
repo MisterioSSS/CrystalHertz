@@ -137,13 +137,13 @@ body{
     box-shadow: 0 8px 32px rgb(2, 4, 24);
     /*border-right: 2px solid rgba(255, 255, 255, .09);*/
     transition: .4s ease-in-out;
-    position: absolute;
+    position: fixed;
     z-index: 999;
 }
 
 .sidebar.open {
     width: 360px;
-    position: absolute;
+    position: fixed;
     z-index: 999;
     margin-top: 100px;
 }
@@ -282,4 +282,40 @@ body{
 .sidebar.open .toggle i {
     transform: rotateY(180deg);
 }
+
+.base{
+    display: flex;
+    position: absolute;
+    z-index: 998;
+    background: rgba(10, 10, 10, .65);
+    min-height: 322px;
+    max-height: auto;
+    width: 1500px;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+}
+
+.baseinside{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.basetext{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    padding-bottom: 100px;
+}
+
+.hr{
+    border: none;
+}
+
 
