@@ -40,13 +40,13 @@
 
         <div class="logo">
             <img src="../images/logowhite.png" alt="CrystalHertz" width="70" height="60">
-            <h3>CrystalHertz</h3>
+            <p class="logo__text">CrystalHertz</p>
         </div>
 
         <nav>
-            <div class="nav-title">
+            <p class="nav-title">
                 Щербаков Алексей Алексеевич
-            </div>
+            </p>
             <ul>
                 <li class="nav-item active">
                     <a href="#" aria-current="page">
@@ -54,6 +54,7 @@
                         <span>Аккаунт</span>
                     </a>
                 </li>
+                
                <li class="nav-item">
                     <a href="add.html">
                         <i class="bx bx-music" aria-hidden="true"></i>
@@ -90,9 +91,7 @@
                 </li>
             </ul>
             <hr>
-            <div class="nav-title">
-                Поддержка
-            </div>
+            <h2 class="nav-title">Поддержка</h2>
             <ul>
                 <li class="nav-item">
                     <a href="#">
@@ -112,7 +111,9 @@
     </div>
 
     <main class="content">
+        
         <div class="icons" id="icons_for_hide">
+            
             <button class="icon" type="button" aria-label="Перемотать назад">
                 <span class="glass">
                     <i class="bx bx-rewind" aria-hidden="true"></i>
@@ -142,32 +143,32 @@
                     <i class="bx bx-plus" aria-hidden="true"></i>
                 </span>
             </button>
+            
         </div>
         
-            <div class="okno">
-                <div class="textobl">
-                    <h1 class="oknotext">Tyler The Creator</h1>
-                    <h2 class="oknotext">IGOR</h2>
-                    <h3 class="oknotext">EARFQUAKE</h3>
-                    <p class="oknotext">“EARFQUAKE” - это совместная работа Тайлера, создателя и Плейбоя Карти. В песне Тайлер поет о любовнике, от которого он зависит, с которым, как он знает, он обращался не лучшим образом, но в котором нуждается. Это сделано на красивых, жизнерадостных аккордах фортепиано и тяжелых, искаженных барабанах, смешивая стили из его последних двух альбомов, Cherry Bomb и Flower Boy.</p>
-                </div>
+        <div class="okno">
+            <div class="textobl">
+                <p class="oknotext track-artist">Tyler The Creator</p>
+                <p class="oknotext track-album">IGOR</p>
+                <h1 class="oknotext track-name">EARFQUAKE</h1>
+                <p class="oknotext">“EARFQUAKE” - это совместная работа Тайлера, создателя и Плейбоя Карти. В песне Тайлер поет о любовнике, от которого он зависит, с которым, как он знает, он обращался не лучшим образом, но в котором нуждается. Это сделано на красивых, жизнерадостных аккордах фортепиано и тяжелых, искаженных барабанах, смешивая стили из его последних двух альбомов, Cherry Bomb и Flower Boy.</p>
             </div>
+        </div>
             
-            <div class="vinyl">
-                <div class="vinyl_block">
-                    <img class="vinyl_record" src="../images/1.png" alt="">
-                    <img class="vinyl_album" src="../images/tyler.png" alt="Обложка альбома IGOR — Tyler, The Creator" width="700" height="700" style="animation-play-state: paused;">
-                    <img class="vinyl_texture" src="../images/a98627118d897cf5.png" alt="" style="animation-play-state: paused;">
-                </div>
+        <div class="vinyl">
+            <div class="vinyl_block">
+                <img class="vinyl_record" src="../images/1.png" alt="">
+                <img class="vinyl_album" src="../images/tyler.png" alt="Обложка альбома IGOR — Tyler, The Creator" width="700" height="700" style="animation-play-state: paused;">
+                <img class="vinyl_texture" src="../images/a98627118d897cf5.png" alt="" style="animation-play-state: paused;">
             </div>
+        </div>
         
-            <div>
-                <audio id="audio" preload="metadata">
-                    <source src="../audio/tyler-the-creator-earfquake.mp3" type="audio/mpeg">
-                    Ваш браузер не поддерживает воспроизведение аудио.
-                </audio>
-            </div>
-        </main>
+        <audio id="audio" preload="metadata">
+            <source src="../audio/tyler-the-creator-earfquake.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает воспроизведение аудио.
+        </audio>
+        
+    </main>
 
     <script src="../js/sidebar.js" defer></script>
     <script src="../js/player.js" defer></script>
